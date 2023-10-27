@@ -47,32 +47,45 @@ class _Post2State extends State<Post2> {
                   padding: EdgeInsets.all(2),
                   margin: EdgeInsets.all(7),
                   decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      border: Border.all(
-                          color: Colors.redAccent,
-                          width: 1.0
-                      )
+                    shape: BoxShape.circle,
+                    border: Border.all(
+                      color: Colors.redAccent,
+                      width: 1.0,
+                    ),
                   ),
                   child: const CircleAvatar(
                     radius: 20, // Image radius
                     backgroundImage: AssetImage("assets/images/luu_diec_phi.jpg"),
                   ),
                 ),
-                const Text(
-                  "yifei_cc",
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white
+                RichText(
+                  text: TextSpan(
+                    children: [
+                      TextSpan(
+                        text: "yifei_cc",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                      WidgetSpan(
+                        child: Icon(
+                          Icons.check_circle,
+                          size: 16,
+                          color: Colors.blue, // Màu xanh
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 Spacer(),
                 IconButton(
-                    onPressed: (){},
-                    icon: Icon(
-                      Icons.more_vert,
-                      color: Colors.white,
-                    )
-                )
+                  onPressed: () {},
+                  icon: Icon(
+                    Icons.more_vert,
+                    color: Colors.white,
+                  ),
+                ),
               ],
             ),
             SizedBox(
