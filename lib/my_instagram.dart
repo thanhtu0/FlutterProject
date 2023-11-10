@@ -152,7 +152,7 @@ class MyInstagram extends StatelessWidget {
                                   ),
                                   child: CircleAvatar(
                                     radius: 40,
-                                    backgroundImage: AssetImage("assets/images/me.jpg"),
+                                    backgroundImage: AssetImage("assets/images/profile-user.png"),
                                     backgroundColor: Colors.white,
                                   ),
                                 ),

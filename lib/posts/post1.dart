@@ -237,7 +237,6 @@ class _Post1State extends State<Post1> {
                                                     ),
                                                   ),
                                                   Column(
-                                                    crossAxisAlignment: CrossAxisAlignment.start,
                                                     children: [
                                                       Row(
                                                         children: [
@@ -263,50 +262,6 @@ class _Post1State extends State<Post1> {
                                                                 fontSize: 12,
                                                                 fontWeight: FontWeight.bold,
                                                                 color: Colors.white,
-                                                              )
-                                                            ),
-                                                          ]
-                                                      )
-                                                    ],
-                                                  )
-                                                ],
-                                              ),
-                                              Row(
-                                                children: [
-                                                  Padding(
-                                                    padding: EdgeInsets.all(12.0),
-                                                    child: CircleAvatar(
-                                                      radius: 16,
-                                                      backgroundImage: AssetImage('assets/images/duong_qua.jpg'),
-                                                    ),
-                                                  ),
-                                                  Column(
-                                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                                    children: [
-                                                      Row(
-                                                        children: [
-                                                          Text(
-                                                            'duongqua',
-                                                            style: TextStyle(
-                                                                fontSize: 12,
-                                                                color: Colors.white,)
-                                                            ,),
-                                                          Text(
-                                                            '. 2h',
-                                                            style: TextStyle(
-                                                                fontSize: 12,
-                                                                color: Colors.blueGrey)
-                                                            ,)
-                                                        ],
-                                                      ),
-                                                      Row(
-                                                          children: [
-                                                            Text(
-                                                              'Cung hảo Cung hảo',
-                                                              style: TextStyle(
-                                                                fontSize: 12,
-                                                                fontWeight: FontWeight.bold,
-                                                                color: Colors.white,
                                                               ),
                                                               textAlign: TextAlign.left
                                                               ,),
@@ -326,7 +281,6 @@ class _Post1State extends State<Post1> {
                                                     ),
                                                   ),
                                                   Column(
-                                                    crossAxisAlignment: CrossAxisAlignment.start,
                                                     children: [
                                                       Row(
                                                         children: [
@@ -352,7 +306,9 @@ class _Post1State extends State<Post1> {
                                                                 fontSize: 12,
                                                                 fontWeight: FontWeight.bold,
                                                                 color: Colors.white,
-                                                              )),
+                                                              ),
+                                                              textAlign: TextAlign.left
+                                                              ,),
                                                           ]
                                                       )
                                                     ],
@@ -369,7 +325,6 @@ class _Post1State extends State<Post1> {
                                                     ),
                                                   ),
                                                   Column(
-                                                    crossAxisAlignment: CrossAxisAlignment.start,
                                                     children: [
                                                       Row(
                                                         children: [
@@ -407,6 +362,8 @@ class _Post1State extends State<Post1> {
                                             ],
                                           ),
                                         ),
+
+
                                       ],
                                     ),
                                   );
