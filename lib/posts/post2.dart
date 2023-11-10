@@ -237,6 +237,7 @@ class _Post2State extends State<Post2> {
                                                     ),
                                                   ),
                                                   Column(
+                                                    crossAxisAlignment: CrossAxisAlignment.start,
                                                     children: [
                                                       Row(
                                                         children: [
@@ -281,6 +282,7 @@ class _Post2State extends State<Post2> {
                                                     ),
                                                   ),
                                                   Column(
+                                                    crossAxisAlignment: CrossAxisAlignment.start,
                                                     children: [
                                                       Row(
                                                         children: [
@@ -325,6 +327,7 @@ class _Post2State extends State<Post2> {
                                                     ),
                                                   ),
                                                   Column(
+                                                    crossAxisAlignment: CrossAxisAlignment.start,
                                                     children: [
                                                       Row(
                                                         children: [
@@ -370,6 +373,7 @@ class _Post2State extends State<Post2> {
                                                     ),
                                                   ),
                                                   Column(
+                                                    crossAxisAlignment: CrossAxisAlignment.start,
                                                     children: [
                                                       Row(
                                                         children: [
